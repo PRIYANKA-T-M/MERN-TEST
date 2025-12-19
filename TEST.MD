@@ -314,15 +314,17 @@ Roll No: _________________
 Date: ___________________
 
 Section A - MCQ Answers:
-Q1: ___ Q2: ___ Q3: ___ Q4: ___ Q5: ___
-Q6: ___ Q7: ___ Q8: ___ Q9: ___ Q10: ___
+Q1: __c_ Q2: _c__ Q3: _c__ Q4: __b_ Q5: _b__
+Q6: _b__ Q7: _c__ Q8: _b__ Q9: _b__ Q10: _b__
 
 Section A - Short Answers:
-Q11: 
-Q12:
-Q13:
-Q14:
-Q15:
+Q11: req.query: It is used to access query parameters in the URL.
+req.params:This is used to access the route paramaters in the URL path
+req.body: : This is used to access data sent in the request body. 
+Q12:The passwords must be encrypted if the database is got to be compromised. If unauthorised people access the database, they wont be able to easily get the original passwords since they are scrambled by hashing
+Q13: Rte limiting is a way to control the count of request a user can make to a API call in a specific time period. It is important because it helps from overloading
+Q14:await lets the function pause until (database operations)another work or action are done
+Q15:findOne() it selects or returns one specific value or data with a id or primary key(mostly). find() - returns all the datas or documents available in the collection
 
 Section B, C, D: (Write code in separate files or below)
 ```
